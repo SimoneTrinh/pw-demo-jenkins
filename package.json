@@ -9,5 +9,8 @@
   "scripts": {
     "test": "npx playwright test",
     "report": "npx playwright show-report"
+  },
+  "dependencies": {
+    "csv-parse": "^5.3.2"
   }
 }
