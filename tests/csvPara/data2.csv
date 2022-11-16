@@ -1,0 +1,5 @@
+"testcase_id","gender","fullname","city","email","position","phonenumber","role","id","error_msg"
+"TC_VNT_01","","","","","","","","","Vui lòng điền đẩy đủ họ và tên"
+"TC_VNT_02","Ông","Nguyen Van G","Hà Nội","NguyenVanG@gmail.com","Founder","956473824","Thành viên","16585214","email cho corporate đã tồn tại"
+"TC_VNT_03","Ông","Nguyen Van G","Hà Nội","NguyenVanG","Founder","956473824","Thành viên","16585325","Email không hợp lệ"
+"TC_VNT_04","Ông","Nguyen Van G","Hà Nội","NguyenVanG@gmail.com","Founder","9564738245","Thành viên","16585325","invalid phone number"

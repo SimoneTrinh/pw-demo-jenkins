@@ -1,8 +1,9 @@
 import test from "@playwright/test";
 
 test.describe("group", () => {
-  test("runs in parallel 1", async (page) => {
+  test("runs in parallel 1", async ({ page }) => {
     await test.step("Parse", async () => {
+      await page.goto("https://playwright.dev/");
       await console.log("test1");
     });
   });
